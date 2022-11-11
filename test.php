@@ -18,6 +18,7 @@ if (in_array('next', $keys)) {
 	unset($_SESSION['info']['next']);
 }
 
+echo "Hell world";
 
 header("location:appeal.php");
 }
